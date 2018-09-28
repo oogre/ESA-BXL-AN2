@@ -27,7 +27,7 @@ Nous voulons te voir explorer et intervenir dans le processus de mise en formes
 
 Voici une liste de techniques. 
 Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
-```
+
 * impression 3D
 * swarm (Boids)
 * jeu de Conway
@@ -48,7 +48,7 @@ Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
 *   à toi d’en 
   * proposer 
   * plus...
-
+```
 ### Calendrier prévisionnel
 
 28 septembre
