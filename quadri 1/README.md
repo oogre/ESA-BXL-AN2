@@ -12,12 +12,10 @@
 | **Collecte physique —> production numérique**                      |
 |tu numériseras les objets physiques que tu auras collectés.         |
 
+```
 Ton point de vue sera original et personnel.
-
 Tu seras capable d’argumenter tes choix, 
-
 de tenir un propos oralement, 
-
 de discuter de ce qui émanera de ton travail.
 
 Nous ne demandons pas de développer un aspect narratif, 
@@ -25,6 +23,7 @@ Nous ne demandons pas de développer un aspect ludique.
 
 Nous voulons te voir explorer et intervenir dans le processus de numérisation 
 Nous voulons te voir explorer et intervenir dans le processus de mise en formes
+```
 
 Voici une liste de techniques. 
 Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
