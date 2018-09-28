@@ -45,9 +45,9 @@ Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
 * mouvements easing
 * audio-réactivité
 * data mining
-* à toi d’en 
-    * proposer 
-    * plus...
+*   à toi d’en 
+  * proposer 
+  * plus...
 
 ### Calendrier prévisionnel
 
