@@ -52,21 +52,21 @@ Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
 ### Calendrier prévisionnel
 
 * **28 septembre**
-* ·
-* ·
+* 
+* 
 * **12 octobre** _choix du projet_
-* ·
-* ·
-* ·
-* ·
+* 
+* 
+* 
+* 
 * **16 novembre** _présentation/accrochage d’un première partie finalisée de votre projet_
-* ·
-* ·
-* ·
+* 
+* 
+* 
 * **14 décembre** _seconde présentation/accrochage_
-* ·
-* ·
-* ·
-* ·
-* ·
+* 
+* 
+* 
+* 
+* 
 * **Semaine du 21 janvier** _remise finale_
