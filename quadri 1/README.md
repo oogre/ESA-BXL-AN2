@@ -23,32 +23,32 @@ Nous ne demandons pas de développer un aspect ludique.
 
 Nous voulons te voir explorer et intervenir dans le processus de numérisation 
 Nous voulons te voir explorer et intervenir dans le processus de mise en formes
-```
+
 
 Voici une liste de techniques. 
 Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
-
-impression 3D
-swarm (Boids)
-jeu de Conway
-pathfinding et steering
-photogramétrie : scan 3D
-système de réaction-diffusion
-dessin génératif 
-motif : nid d'abeille, écume, nuage...
-forme : tronc d'arbre, fleur, fractal...
-draw bot
-… et autres générations procédurales (texte, sons, …)
-réseaux de neurones (apprentissage supervisé)
-Requete HTTP ( https://github.com/toddmotto/public-apis )
-algorithmes génétiques
-mouvements easing
-audio-réactivité
-data mining
-à toi d’en 
-proposer 
-plus...
-Calendrier prévisionnel
+```
+* impression 3D
+* swarm (Boids)
+* jeu de Conway
+* pathfinding et steering
+* photogramétrie : scan 3D
+* système de réaction-diffusion
+* dessin génératif 
+** motif : nid d'abeille, écume, nuage...
+** forme : tronc d'arbre, fleur, fractal...
+** draw bot
+** … et autres générations procédurales (texte, sons, …)
+* réseaux de neurones (apprentissage supervisé)
+* Requete HTTP ( https://github.com/toddmotto/public-apis )
+* algorithmes génétiques
+* mouvements easing
+* audio-réactivité
+* data mining
+* à toi d’en 
+..proposer 
+..plus...
+..Calendrier prévisionnel
 
 28 septembre
 .
