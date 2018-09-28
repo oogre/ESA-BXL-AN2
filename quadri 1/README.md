@@ -5,16 +5,19 @@
 
                     Le remplacement du cadre naturel des éléments collectés, 
                     crée de la beauté, de l’inattendu, un début d’histoire.
-| Consignes                                                          | 
+|                                                                    | 
 |:------------------------------------------------------------------:|
-|*Collecte numérique —> production physique*                         |
+| **Collecte numérique —> production physique**                      |
 |tu donneras forme aux données informatiques que tu auras collectées.|
-|*Collecte physique —> production numérique*                         |
+| **Collecte physique —> production numérique**                      |
 |tu numériseras les objets physiques que tu auras collectés.         |
 
 Ton point de vue sera original et personnel.
+
 Tu seras capable d’argumenter tes choix, 
+
 de tenir un propos oralement, 
+
 de discuter de ce qui émanera de ton travail.
 
 Nous ne demandons pas de développer un aspect narratif, 
