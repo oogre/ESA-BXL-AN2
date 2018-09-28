@@ -35,10 +35,10 @@ Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
 * photogramétrie : scan 3D
 * système de réaction-diffusion
 * dessin génératif 
-** motif : nid d'abeille, écume, nuage...
-** forme : tronc d'arbre, fleur, fractal...
-** draw bot
-** … et autres générations procédurales (texte, sons, …)
+⋅⋅* motif : nid d'abeille, écume, nuage...
+⋅⋅* forme : tronc d'arbre, fleur, fractal...
+⋅⋅* draw bot
+⋅⋅* … et autres générations procédurales (texte, sons, …)
 * réseaux de neurones (apprentissage supervisé)
 * Requete HTTP ( https://github.com/toddmotto/public-apis )
 * algorithmes génétiques
@@ -46,9 +46,10 @@ Nous aimerions te voir aborder 2, 3 ou plus de celles-ci.
 * audio-réactivité
 * data mining
 * à toi d’en 
-..proposer 
-..plus...
-..Calendrier prévisionnel
+⋅⋅⋅proposer 
+⋅⋅⋅plus...
+
+### Calendrier prévisionnel
 
 28 septembre
 .
