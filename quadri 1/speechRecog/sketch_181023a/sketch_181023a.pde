@@ -1,63 +1,69 @@
 import websockets.*;
-
 WebsocketServer socket;
-ArrayList<Text> alltxt;
-ArrayList<Text> tmptxt;
+
+ArrayList<Text> txtList;
+ArrayList<Text> txtTmpList;
+
 void setup() {
-  size(1400, 600);
-  alltxt = new ArrayList<Text>();
-  tmptxt = new ArrayList<Text>();
+  size(800, 600);
+  txtList = new ArrayList<Text>();
+  txtTmpList = new ArrayList<Text>();
   socket = new WebsocketServer(this, 1337, "/p5websocket");
-  
-}
-void mouseReleased(){
-tmptxt.add(new Text("test", mouseX, mouseY));
 }
 void draw() {
   background(0);
-  for (Text t : alltxt) {
+  for (Text t : txtList) {
     t.draw();
   }
-  for (Text t : tmptxt) {
-    alltxt.add(t);
+  for (Text t : txtTmpList) {
+    txtList.add(t);
   }
-  for (int i = alltxt.size()-1 ; i>=0 ; i --) {
-    if (alltxt.get(i).hasToKill()) {
-      alltxt.remove(alltxt.get(i));
+  for (int i = txtList.size()-1; i>=0; i --) {
+    if (txtList.get(i).hasToKill()) {
+      txtList.remove(txtList.get(i));
     }
   }
-  tmptxt.clear();
+  txtTmpList.clear();
 }
 
 void webSocketServerEvent(String msg) {
+  txtTmpList.add(new Text(msg));
   println(msg);
-  tmptxt.add(new Text(msg));
+}
+
+void mouseReleased() {
+  txtTmpList.add(new Text("test", mouseX, mouseY));
 }
 
 class Text {
-  PVector pos;
   float size;
-  float c = 255;
   String txt;
-
+  PVector position;
+  PVector speed;
+  float opacity = 255;
+  
   Text(String txt) {
     this(txt, random(width), random(height) );
   }
+  
   Text(String txt, float x, float y) {
     this.txt = txt;
-    pos = new PVector(x, y);
-    size = random(10, 40);
+    position = new PVector(x, y);
+    speed = new PVector(random(-1, 1), random(-1, 1));
+    size = random(10, 30);
   }
+  
   boolean hasToKill() {
-    return c <= 0;
+    return opacity <= 0;
   }
+  
   void draw() {
     textAlign(CENTER, CENTER);
     textSize(size);
-    fill(255, c);
-    text(txt, pos.x, pos.y);
-    pos.add(0, 1);
+    fill(255, opacity);
+    text(txt, position.x, position.y);
+    position.add(speed);
     size *= 1.01;
-    c -= 2;
+    opacity -= 2;
   }
 }
